@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign Up</title>
+<style>
+body, html {
+font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+}
+form 
+{
+width:50%;
+}
+.bg {
+  background-image: url("cars two.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no- repeat;
+  background-size: cover;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin:  8px 0;
+  display: inline-block;
+  border: 3px solid #ccc;
+  background: white;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+font-size:20px;
+font-weight:bold;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.container {
+  padding: 16px;
+background-color:white;
+}
+a
+{
+text-decoration:none;
+color:black;
+}
+h1
+{
+font-size:40px;
+font-weight:bold;
+font-face:Times New Romans;
+}
+.b
+{
+font-size:20px;
+font-weight:bold;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<body>
+<div class="bg">
+<br>
+<br>
+<center>
+<form action="main pg.html" style="border:4px solid black">
+  <div class="container">
+    <h1>Sign Up</h1>
+    <span class="b">Please fill in this form to create an account.</span>
+<br>
+<br>
+    <hr width="100%">
+<br>
+    <label for="email"><b><span class="b">Email</span></b></label><br>
+    <input type="text" placeholder="Enter Email" name="email" required>
+<br>
+    <label for="psw"><b><span class="b">Password</span></b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+<br>
+    <label for="psw-repeat"><b><span class="b">Repeat Password</span></b></label><br>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <br>
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"><span class="b">
+ Remember me</span>
+    </label>
+    <br>
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+<span class="b">Already Have an account??</span><br>
+<a href="form.html"><h2>LOGIN</h2></a> 
+  </div>
+</form>
+</center>
+</div>
+</body>
+</html>

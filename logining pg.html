@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>Login Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("cars.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form {border: 4px solid black;
+width:50%;
+}
+
+input[type=text], input[type=password] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color:black;
+  color: white;
+ font-size:20px;
+font-weight:bold;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2px;
+  cursor: pointer;
+  width: 40%;
+align:center;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.container {
+  padding: 16px;
+background-color:white;
+}
+
+span.psw {
+  padding-top: 16px;
+font-size:30px;
+font-weight:bold;
+}
+.b
+{
+font-size:20px;
+font-weight:bold;
+}
+a
+{
+text-decoration:none;
+color:black;
+}
+h1
+{
+font-size:40px;
+font-weight:bold;
+font-face:Times New Romans;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+<div class="bg">
+<br>
+<br>
+<center>
+<h1>USER LOGIN</h1>
+<form action="main pg.html">
+
+  <div class="container">
+    <label for="uname"><span class="b">Username : </span></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+<br>
+    <label for="psw"><span class="b">Password : </span></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        <br>
+        <br>
+<div class="clearfix">
+    <button type="submit">Login</button><br>
+      <input type="checkbox" checked="checked" name="remember"><span class="b"> Remember me</span><br>
+</div>
+<br>
+<br>
+<br>
+<span class="psw"><a href="sign up pg.html"><center>SIGN UP</center></a></span>
+</form>
+</center>
+</div>
+</body>
+</html>
